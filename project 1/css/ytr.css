@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .h2{
+  display: flex;
+    justify-content: center;
+    }
+  
+  
+  .header {
+    grid-area: header;
+    background-color: #ffb404;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  figcaption{
+      text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header' 
+      'left middle middle middle middle right' 
+      '  footer footer footer footer footer footer ';
+   } 
+  
+  
+   .left,
+  .middle
+   {
+    padding: 50px;
+    height: 100%;
+  }
+  
+  
+  .right{
+      float: right;
+    font-size: 20px;
+   background-color: #000000;
+   padding: 10px 15px;
+  }
+  
+  
+  .r1{
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+      color: white; 
+  }
+  
+  
+  .r1 a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .r1 img{
+      width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  .left {
+    grid-area: left;
+  }
+  
+  
+  .left img{
+     width: 100%;
+     height: auto;
+  }
+  
+
+  .p1{
+      font-size: 20px;
+  }
+  
+  .middle {
+    grid-area: middle;
+  }
+  .button {
+    background-color:#FF69B4; 
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    
+    .a1 {
+    text-decoration: none;
+    color: white;
+    }
+  
+  
+  .footer {
+    grid-area: footer;
+    background-color: #BC8F8F;
+    padding: 10px;
+  
+   
+  }
+  
+  .f1{
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 600px) {
+    .grid-container  {
+      grid-template-areas: 
+        'header header header header header header' 
+        'left left left left left' 
+        'middle middle middle middle middle middle' 
+       
+        'left footer footer footer footer footer ;
+    }
+  }
