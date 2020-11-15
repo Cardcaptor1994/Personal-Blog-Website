@@ -2,67 +2,59 @@
 @import "style2.css";
 @import "style3.css";
 .footer {
-	grid-area: footer;
-	background-color: #bc8f8f;
-	text-align: center;
+  grid-area: footer;
+  background-color: #bc8f8f;
+  text-align: center;
 }
 
 .button {
-	background-color: #ff69b4;
-	border: none;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
+  background-color: #ff69b4;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .a1 {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .g1 {
-	padding-left: 22px;
+  padding-left: 22px;
 }
 
 .wrapper {
-	display: grid;
-	grid-template-areas:
-     "header"
-		  "nav"
-		 "content"
-		 "footer";
+  display: grid;
+  grid-template-areas: "header" "nav" "content" "footer";
 }
 
 @media (min-width: 500px) {
-	.wrapper {
-		grid-template-areas: 
-     "header  header"
-			"nav     nav"
-			 "content"
-			 "footer";
-	}
-	.navbar {
-		display: flex;
-		justify-content: space-evenly;
-	}
-	.row {
-		display: flex;
-		column-gap: 5%;
-	}
-	.c2 {
-		text-align: left;
-	}
-	.b1 {
-		text-align: center;
-	}
-	.g1 {
-		text-align: center;
-	}
-	.p2 {
-		text-align: center;
-	}
+  .wrapper {
+    grid-template-areas: "header  header" "nav     nav" "content" "footer";
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .row {
+    display: flex;
+    column-gap: 5%;
+  }
+  .c2 {
+    text-align: left;
+  }
+  .b1 {
+    text-align: center;
+  }
+  .g1 {
+    text-align: center;
+  }
+  .p2 {
+    text-align: center;
+  }
 }
