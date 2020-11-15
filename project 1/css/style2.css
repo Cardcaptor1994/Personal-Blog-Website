@@ -1,24 +1,18 @@
-.header {
-    grid-area: header;
-    background-color: #ffb404;
-    padding: 10px;
-    text-align: center;
-    font-size: 35px;
-    }
-    
-    .grid-container {
-    display: grid;
-    grid-template-areas: 
-      'header header header header header header' 
-      'left middle middle middle middle right' 
-      '  footer footer footer footer footer footer ';
-    } 
-    
-    .left,
-    .middle
-    {
-    padding: 50px;
-    height: 100%; 
-    
-    }
-    
+.nav {
+	grid-area: nav;
+}
+
+.nav {
+	background-color: #000;
+	flex-direction: row;
+	padding: 20px;
+}
+.nav a {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: white;
+}
+.content {
+	grid-area: content;
+}
