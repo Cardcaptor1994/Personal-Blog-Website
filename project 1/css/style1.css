@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
-    }
-    
-    body {
-    font-family: Arial, Helvetica, sans-serif;
-    }
-    .h2{
-    display: flex;
-    justify-content: center;
-    }
+}
+.head {
+    grid-area: header;
+}
+.h2 {
+	display: flex;
+	justify-content: center;
+	background-color: #ffb404;
+}
