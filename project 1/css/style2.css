@@ -1,7 +1,6 @@
 .nav {
 	grid-area: nav;
 }
-
 .nav {
 	background-color: #000;
 	flex-direction: row;
