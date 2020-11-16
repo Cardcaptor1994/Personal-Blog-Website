@@ -1,21 +1,18 @@
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    padding: 0px;
-    margin: 0;
-    height: 100%;
-    font-size: 20px;
-    }
-    
-    .sidebar a{
-    text-decoration: none;
-    color: white;
-    }
-    
-    .left {
-    grid-area: left;
-    background-color: #000;
-    color: white;
-    }
-    
+.c2 {
+	flex-direction: row;
+	text-align: center;
+	padding: 40px;
+	background-color: #eee;
+}
+.b1 {
+	padding-left: 22px;
+}
+.image {
+	text-align: center;
+}
+.c2 a {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #000;
+}
